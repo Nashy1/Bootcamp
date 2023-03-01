@@ -1,0 +1,41 @@
+body {
+    font-family: "Copperplate";
+    background-color: aqua;
+}
+#inputWords {
+    float:left;
+    width: 45%;
+}
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+li {
+    line-height: 2em;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+input[type=text] {
+    border-width: 0 0 1px 0;
+    border-color: #184fe8;    
+}
+#buttonDiv {
+    text-align: center;    
+}
+#replaceButton {
+    margin-top: 30px;
+    width: 200px;
+    background-color: rgb(226, 43, 43);
+}
+#story {
+    margin-top: 12px;
+    width: 45%;
+    border: 1px dashed rgb(255, 0, 0);
+    padding: 8px;
+    float: left;
+}
+.replacement {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
