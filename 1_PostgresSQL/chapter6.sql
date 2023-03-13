@@ -62,8 +62,8 @@ INSERT INTO schools_right (id, right_school) VALUES
 (6, 'Jefferson High School');
 
 SELECT* 
-FROM schools_left JOIN school_right
-ON school_left.id = school_right.id;
+FROM schools_left INNER JOIN schools_right
+ON schools_left.id = schools_right.id;
 
 
 SELECT *

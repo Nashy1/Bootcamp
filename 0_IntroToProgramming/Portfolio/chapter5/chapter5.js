@@ -1,7 +1,7 @@
 var item1;
 var item2;
 var item3;
-//document.getElementById("changeList").onclick = newList;
+document.getElementById("changeList").onclick = newList;
 // document.getElementById("changeList").addEventListener("click",newList);
 
 
